@@ -9,10 +9,6 @@ import './App.css';
 
 const colors = ['red', 'blue', 'green', 'yellow', 'purple', 'orange'];
 
-interface NewGameButtonProps {
-    onClick: () => void;
-}
-
 const App = () => {
     const [targetColor, setTargetColor] = useState<string>('');
     const [score, setScore] = useState<number>(0);
