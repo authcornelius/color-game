@@ -1,6 +1,6 @@
 import React from 'react';
 
-interface NewGameButtonProps {
+export interface NewGameButtonProps {
     onClick: () => void;
 }
 
